@@ -19,9 +19,6 @@ __pycache__/
 *.safetensors
 /models/
 
-# Processed data (reproducible from preprocessing notebook)
-/dataset/processed/
-
 # OS
 .DS_Store
 Thumbs.db
