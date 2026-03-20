@@ -1,0 +1,12 @@
+{
+  "model_name": "microsoft/deberta-v3-base",
+  "max_length": 512,
+  "head_tokens": 256,
+  "tail_tokens": 254,
+  "label_map": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "best_val_f1_weighted": 0.9130260001296765
+}
