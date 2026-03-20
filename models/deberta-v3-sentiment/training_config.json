@@ -1,12 +1,19 @@
 {
   "model_name": "microsoft/deberta-v3-base",
   "max_length": 512,
-  "head_tokens": 256,
-  "tail_tokens": 254,
   "label_map": {
     "negative": 0,
     "neutral": 1,
     "positive": 2
   },
-  "best_val_f1_weighted": 0.9130260001296765
+  "best_val_f1_weighted": 0.9235284102233919,
+  "training": {
+    "epochs": 10,
+    "batch_size": 4,
+    "learning_rate": 2e-05,
+    "loss": "focal_loss_gamma2",
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "truncation": "head+tail_50/50"
+  }
 }
