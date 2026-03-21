@@ -23,7 +23,7 @@ __pycache__/
 Thumbs.db
 
 # Assignment PDF
-*.pdf
+DI_725_Assignment_1.pdf
 
 # Logs
 *.log
