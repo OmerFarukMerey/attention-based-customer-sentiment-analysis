@@ -34,3 +34,10 @@ Customer service interactions where customers describe their issues and support 
 - Python, PyTorch, Hugging Face Transformers
 - Weights & Biases (W&B) for experiment tracking
 - Jupyter Notebook
+
+## Deliverables
+
+- **Report:** IEEE format, 2-page PDF
+- **Code:** Interactive notebooks (`.ipynb`) with outputs
+- **Version Control:** [GitHub Repository](https://github.com/OmerFarukMerey/attention-based-customer-sentiment-analysis)
+- **Experiment Tracking:** [W&B Dashboard](https://wandb.ai/team-lingua/customer-sentiment-analysis)
